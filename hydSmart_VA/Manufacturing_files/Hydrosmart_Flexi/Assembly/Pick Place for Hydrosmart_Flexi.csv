@@ -1,0 +1,27 @@
+Altium Designer Pick and Place Locations
+E:\2025\Altium\LuHan\Hydrosmart\hydroSmart_hardware\hydSmart_VA\Project Outputs\Pick Place\Pick Place for Hydrosmart_Flexi.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       27-06-25
+Time:       21:26
+Revision:   efae77216fb71defb87792e00979320c72e4b929
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"L2","4.7uH","TopLayer","FP-MLZ1608-IPC_A","1730.207","-78.019","180","Shielded Multilayer Inductor 4.7uH ±20% 350mA 650mO SMD 0603"
+"C4","4.7uF","TopLayer","FP-GRM035-0_09-IPC_B","1832.544","-541.019","180","Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 4.7uF, X5R, 15%, 20%, 6.3V"
+"C3","4.7uF","TopLayer","FP-GRM035-0_09-IPC_B","1620.207","-86.019","270","Chip Multilayer Ceramic Capacitors for General Purpose, 0201, 4.7uF, X5R, 15%, 20%, 6.3V"
+"Y1","FC-135_32.7680KA-AG5","TopLayer","FC135327680KAAG5","1522.994","-83.019","180","Crystal or Oscillator"
+"U4","CT8122AM-IS3","TopLayer","SOT95P280X135-3L","498.207","-402.020","180","Integrated Bipolar TMR Digital Latch"
+"U3","CT8122AM-IS3","TopLayer","SOT95P280X135-3L","673.207","-577.019","270","Integrated Bipolar TMR Digital Latch"
+"U2","BC-2005","BottomLayer","BC2005","675.207","-428.019","0","Undefined or Miscellaneous"
+"U1","MAXM38643AEMB+","TopLayer","MAXM38643AEMB","441.207","-741.724","0","Integrated Circuit"
+"R1","20K","TopLayer","RESC0603X28X15LL05T05","354.380","-776.019","0",""
+"M1","AN54L15Q-U","TopLayer","AN54L15Q-U","1660.734","-326.019","270","AN54L15Q-U"
+"J1","TC2050-IDC-NLFP","TopLayer","TC2050-IDC-NLFP","832.207","-759.020","0","CBL PLUG-OF-NAILS 10-PIN"
+"IC1","24FC04T-I_OT","TopLayer","SOT95P280X145-5N","984.207","-398.019","270","Integrated Circuit"
+"C2","22uF","TopLayer","FP-GRM158-0_2-MFG","536.506","-722.019","0","Chip Multilayer Ceramic Capacitors for General Purpose, 0402, 22uF, X5R, 15%, 20%, 10V"
+"C1","47uF","TopLayer","FP-C2012-125-0_2-MFG","322.207","-723.019","180","Multilayer Ceramic Capacitors 47µF ±20% 6.3V X5R SMD 0805"
