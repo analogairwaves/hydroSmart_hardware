@@ -33,6 +33,8 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 OutputPath=Project Outputs
 LogFolderPath=
 ManagedProjectGUID=
+VaultGUID=
+ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
