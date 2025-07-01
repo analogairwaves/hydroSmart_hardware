@@ -1,1 +1,3 @@
-Record=TopLevelDocument|FileName=Hydrosmart_NRF_MOD.SchDoc
+Record=TopLevelDocument|FileName=Hydrosmart_NRF_MOD.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Hydrosmart_NRF_MOD.SchDoc|FileName=Hydrosmart_OTHER.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Hydrosmart_NRF_MOD.SchDoc|FileName=Hydrosmart_PWR.SchDoc|SheetNumber=2
