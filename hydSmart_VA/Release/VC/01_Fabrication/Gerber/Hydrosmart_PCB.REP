@@ -2,26 +2,84 @@
 FileName = Hydrosmart_PCB.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : Hydrosmart_PCB.GBO
+Generating : Bottom Layer
+      File : Hydrosmart_PCB.GBL
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D13
+    D43
+    D44
+    D46
+    D47
+    D48
+    D52
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Int2 (PWR)
+      File : Hydrosmart_PCB.GP2
+
+    Adding Layer      : Int2 (PWR)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Hydrosmart_PCB.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D46
+    D47
 *************************************************************
 
 *************************************************************
-Generating : Outline
-      File : Hydrosmart_PCB.GM6
+Generating : Bottom Paste
+      File : Hydrosmart_PCB.GBP
 
-    Adding Layer      : Outline
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D60
+    D53
+    D54
 *************************************************************
 
 *************************************************************
@@ -36,46 +94,74 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D43
-    D44
+    D41
+    D42
+    D56
+    D57
     D58
+*************************************************************
+
+*************************************************************
+Generating : Outline
+      File : Hydrosmart_PCB.GM6
+
+    Adding Layer      : Outline
+
+
+Used DCodes :
     D59
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : Hydrosmart_PCB.GTS
+Generating : Bottom Overlay
+      File : Hydrosmart_PCB.GBO
 
-    Adding Layer      : Top Solder
+    Adding Layer      : Bottom Overlay
 
-    Adding Layer      : Top Layer
+
+Used DCodes :
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Hydrosmart_PCB.GPB
+
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D24
-    D25
-    D28
-    D31
+    D46
+    D47
+    D52
+    D53
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Int1 (GND)
+      File : Hydrosmart_PCB.GP1
+
+    Adding Layer      : Int1 (GND)
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
+    D49
+    D50
+    D51
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : Hydrosmart_PCB.GTL
+Generating : Top Paste
+      File : Hydrosmart_PCB.GTP
+
+    Adding Layer      : Top Paste
 
     Adding Layer      : Top Layer
 
@@ -83,6 +169,7 @@ Generating : Top Layer
 
 
 Used DCodes :
+    D16
     D17
     D18
     D19
@@ -96,14 +183,6 @@ Used DCodes :
     D27
     D28
     D29
-    D30
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
 *************************************************************
 
 *************************************************************
@@ -120,21 +199,19 @@ Used DCodes :
     D13
     D14
     D15
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Hydrosmart_PCB.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D16
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : Hydrosmart_PCB.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D17
     D18
     D19
@@ -148,120 +225,42 @@ Used DCodes :
     D27
     D28
     D29
-    D30
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : Hydrosmart_PCB.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D55
-    D56
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : Hydrosmart_PCB.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
+    D43
+    D44
     D45
-    D49
-    D50
-*************************************************************
-
-*************************************************************
-Generating : Int2 (PWR)
-      File : Hydrosmart_PCB.GP2
-
-    Adding Layer      : Int2 (PWR)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D33
-    D52
-    D53
-    D54
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Hydrosmart_PCB.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D46
     D47
-    D49
-    D50
-    D51
-    D55
-    D56
-    D57
+    D48
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : Hydrosmart_PCB.GPB
+Generating : Top Solder
+      File : Hydrosmart_PCB.GTS
 
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D49
-    D50
-    D55
-    D56
-*************************************************************
-
-*************************************************************
-Generating : Int1 (GND)
-      File : Hydrosmart_PCB.GP1
-
-    Adding Layer      : Int1 (GND)
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
+    D23
+    D24
+    D27
+    D30
+    D31
+    D32
     D33
-    D52
-    D53
-    D54
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
 *************************************************************
 
 *************************************************************
@@ -274,6 +273,7 @@ Generating : Drill Drawing
 
 
 Used DCodes :
+    D60
     D61
 *************************************************************
 

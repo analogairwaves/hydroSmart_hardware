@@ -5,7 +5,7 @@ E:\2025\Altium\LuHan\Hydrosmart\2025-07-02\Project Outputs\Pick Place\Pick Place
 File Design Information:
 
 Date:       02-07-25
-Time:       19:42
+Time:       21:03
 Revision:   Not in VersionControl
 Variant:    No variations
 Units used: mil
@@ -19,7 +19,7 @@ Units used: mil
 "C4","4.7uF","TopLayer","C0402","1179.000","-515.000","180","CAP CER 4.7UF 16V X6T 0402"
 "M1","AN54L15Q-U","TopLayer","AN54L15Q-U","1005.529","-296.999","270","AN54L15Q-U"
 "Y1","FC-135_32.7680KA-AG5","TopLayer","FC135327680KAAG5","824.999","-68.000","180","Crystal or Oscillator"
-"J1","TC2030-IDC-NL","TopLayer","TC2030-IDC-NL","112.205","-275.591","270","Header, 3-Pin, Dual row"
+"J1","TC2030-IDC-NL","BottomLayer","TC2030-IDC-NL","55.000","-225.000","270","Header, 3-Pin, Dual row"
 "U3","CT8122AM-IS3","TopLayer","SOT95P280X135-3L","565.677","-285.754","133","Integrated Bipolar TMR Digital Latch"
 "U4","CT8122AM-IS3","TopLayer","SOT95P280X135-3L","677.000","-577.000","270","Integrated Bipolar TMR Digital Latch"
 "IC1","24FC04HT-I/OT","TopLayer","SOT23-5","614.000","-115.000","270","IC EEPROM 4KBIT I2C 1MHZ SOT23-5"
