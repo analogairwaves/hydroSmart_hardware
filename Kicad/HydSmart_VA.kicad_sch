@@ -1,0 +1,380 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "55dcedc0-f3c9-4802-9d92-598810bbb9c2")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 146.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc912ac-f59d-449b-b41b-d23060c76bad")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c7112f-1060-4f4b-baba-755168f16223")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecbecf6-6852-4f4d-b6ec-c5ccefd1cca0")
+	)
+	(wire
+		(pts
+			(xy 129.54 54.61) (xy 146.05 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e420802-ca2c-461a-8f09-23fb657d162e")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d5019c-cd40-4989-89fe-084125bc67ab")
+	)
+	(wire
+		(pts
+			(xy 129.54 67.31) (xy 146.05 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bcb588-01d9-42de-9161-2b1b96dace58")
+	)
+	(label "I2C_SCL"
+		(at 132.08 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2430cff5-c6f6-42b9-90fc-a612b04f42ae")
+	)
+	(label "HALL2"
+		(at 132.08 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44e5ddcb-7edc-448d-9760-b20462822c61")
+	)
+	(label "I2C_SDA"
+		(at 132.08 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62ac0508-50ad-4ec7-8374-29f09433efe2")
+	)
+	(label "P2.05"
+		(at 132.08 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8418fa65-5a1e-4ef3-84fa-91ec6d236586")
+	)
+	(label "ROM_WP"
+		(at 132.08 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c7eaade-1cda-40ec-ad66-0b80ed9b2a55")
+	)
+	(label "HALL1"
+		(at 132.08 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d44a39c7-9e6a-4467-92fa-6b84215a29d7")
+	)
+	(sheet
+		(at 146.05 52.07)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cfe2dda-1d06-4209-b08d-1c2a271d03c4")
+		(property "Sheetname" "Hydrosmart_OTHER"
+			(at 146.05 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hydrosmart_OTHER.kicad_sch"
+			(at 146.05 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 146.05 63.5 180)
+			(uuid "009b5821-8a21-42db-a7a3-61bcb68c4551")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROM_WP" input
+			(at 146.05 67.31 180)
+			(uuid "1e220fcb-3563-4d31-a709-71d54c530de9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P2.05" bidirectional
+			(at 146.05 71.12 180)
+			(uuid "b40e79fc-de14-4dd4-af20-09802a34b34c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 146.05 60.96 180)
+			(uuid "2c8f4fed-6538-4094-b609-572feed1b839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL1" output
+			(at 146.05 54.61 180)
+			(uuid "52171b92-d524-4454-ac3b-3fd292f0609e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HALL2" output
+			(at 146.05 57.15 180)
+			(uuid "340831ba-396e-4eeb-b4bb-f32352b937ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "HydSmart_VA"
+				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 93.98)
+		(size 35.56 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5247e536-3559-424f-a9fb-8c9a39ccf595")
+		(property "Sheetname" "Hydrosmart_PWR"
+			(at 93.98 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hydrosmart_PWR.kicad_sch"
+			(at 93.98 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HydSmart_VA"
+				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 52.07)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5d4fedf-8e3c-4300-9866-c325aa993ee6")
+		(property "Sheetname" "Hydrosmart_NRF_MOD"
+			(at 93.98 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hydrosmart_NRF_MOD.kicad_sch"
+			(at 93.98 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 129.54 63.5 0)
+			(uuid "eeefc2a8-1d72-42b6-a107-2e4aa70dcb13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL1" input
+			(at 129.54 54.61 0)
+			(uuid "f5863dd6-55b0-49cf-98a1-88ff88f2c916")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROM_WP" output
+			(at 129.54 67.31 0)
+			(uuid "23c5ecec-da34-4ab1-9355-ecb3eb29ac55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P2.05" bidirectional
+			(at 129.54 71.12 0)
+			(uuid "a3c5b48b-364f-471a-aaf8-e3cddd82aa21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 129.54 60.96 0)
+			(uuid "db656ee9-4ec3-4e81-8836-8e1bc3db8911")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HALL2" input
+			(at 129.54 57.15 0)
+			(uuid "4190c6ee-2b78-48a5-ac13-b1302cf3bcb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HydSmart_VA"
+				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
