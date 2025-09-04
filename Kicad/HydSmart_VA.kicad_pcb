@@ -310,12 +310,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Raytac"
+		(property "MANUFACTURER" "Raytac"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc17ef8c-4dfa-44aa-af5b-8ae5a04eff7d")
+			(uuid "c485711b-7d38-4279-8730-479754b1c7d5")
 			(effects
 				(font
 					(size 1 1)
@@ -323,12 +323,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "AN54L15Q-U"
+		(property "MANUFACTURER PN" "AN54L15Q-U"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59b2e2c1-0351-499e-ab00-fca138dad521")
+			(uuid "cdd4e908-2622-4204-8f72-da7db63ffb8a")
 			(effects
 				(font
 					(size 1 1)
@@ -899,19 +899,6 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "FC-135 32.7680KA-AG5"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de03ad43-4b06-421e-a316-9f98d7393e6c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "HEIGHT" "0.9mm"
 			(at 0 0 180)
 			(unlocked yes)
@@ -938,12 +925,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Epson Timing"
+		(property "ARROW PART NUMBER" "FC-135 32.7680KA-AG5"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2aedbdf9-7666-4542-b0fd-555c69e69ded")
+			(uuid "ba75657e-3dda-407b-b3d6-6ca159443aae")
 			(effects
 				(font
 					(size 1 1)
@@ -951,12 +938,25 @@
 				)
 			)
 		)
-		(property "ARROW PART NUMBER" "FC-135 32.7680KA-AG5"
+		(property "MANUFACTURER" "Epson Timing"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba75657e-3dda-407b-b3d6-6ca159443aae")
+			(uuid "d8d229e5-0238-4185-b57e-85f98b7ae6d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER PN" "FC-135 32.7680KA-AG5"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3cac8ed-a10c-4dd3-85f3-97bc8e887ab6")
 			(effects
 				(font
 					(size 1 1)
@@ -1126,38 +1126,38 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Microchip"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "84f1fe40-8c09-498d-bc22-5fb8b70c3fc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "24FC04HT-I/OT"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd0495ae-348d-4445-9ccb-5a36131828b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DIGIKEY PART NUMBER" "24FC04HT-I/OTCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0ad4f60a-b866-4dfc-8778-6bfb50b4066d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Microchip"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "660c28d6-15ce-48bd-b19a-44aaee3d2695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER PN" "24FC04HT-I/OT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb5a7954-9a24-42fd-9b84-6f1cebafc84f")
 			(effects
 				(font
 					(size 1 1)
@@ -1483,7 +1483,7 @@
 				)
 			)
 		)
-		(property "Description" "Chip Multilayer Ceramic Capacitors for General Purpose, 0402, 22uF, X5R, 15%, 20%, 10V"
+		(property "Description" "Multilayer Ceramic Capacitors 47μF ±20% 6.3V X5R SMD 0805"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1508,12 +1508,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Murata Electronics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "597613bc-6ff9-41ac-bb11-a91c558155b5")
+			(uuid "ceb1b181-108e-495a-8241-cb1bacd57cda")
 			(effects
 				(font
 					(size 1 1)
@@ -1521,12 +1521,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM158R60J226ME01D"
+		(property "MANUFACTURER PN" "GRM158R60J226ME01D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49dd92e7-45c3-41f8-ab2e-2941a7f5774b")
+			(uuid "431c7a49-aadd-40ff-a74b-a3aa665d9c27")
 			(effects
 				(font
 					(size 1 1)
@@ -2111,12 +2111,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Taiyo Yuden"
+		(property "MANUFACTURER" "Taiyo Yuden"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d75a53c7-f9e1-4119-b520-ac434c8fadba")
+			(uuid "b249d22d-87a2-4dcc-a2a6-ef04d98a4375")
 			(effects
 				(font
 					(size 1 1)
@@ -2124,12 +2124,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "JMK212BBJ476MG-T"
+		(property "MANUFACTURER PN" "JMK212BBJ476MG-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "959cf6c5-2589-4b96-af81-88c6684cb6a2")
+			(uuid "c3c451f5-cb51-4724-b8ba-875f66b805dd")
 			(effects
 				(font
 					(size 1 1)
@@ -2432,7 +2432,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0402"
+		(property "Description" "RES SMD 20K OHM 1% 1/10W 0402"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2457,12 +2457,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Panasonic Electronic Components"
+		(property "MANUFACTURER" "Panasonic Electronic Components"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "248456d2-eb34-40e7-9362-d4905dfbeea6")
+			(uuid "e40f53fc-7949-4990-a091-a66118bd4eed")
 			(effects
 				(font
 					(size 1 1)
@@ -2470,12 +2470,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "ERJ-2RKF4701X"
+		(property "MANUFACTURER PN" "ERJ-2RKF4701X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e47e0c4-4f4f-4908-9857-c593a1928854")
+			(uuid "afbc324b-580f-4cc6-a56a-7ab0932cf4bb")
 			(effects
 				(font
 					(size 1 1)
@@ -2814,12 +2814,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Murata Electronics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f21c1df4-a219-4006-af7f-b88fbbd1d06c")
+			(uuid "ab3fa751-2ca6-4e47-83ae-7578410988f2")
 			(effects
 				(font
 					(size 1 1)
@@ -2827,12 +2827,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM155D81C475ME15J"
+		(property "MANUFACTURER PN" "GRM155D81C475ME15J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "286a689e-3aba-45d9-b7d5-5c43678da978")
+			(uuid "6d9a8203-39bc-4a19-93a1-3f61f4cfc5b1")
 			(effects
 				(font
 					(size 1 1)
@@ -3007,6 +3007,7 @@
 		(path "/2cfe2dda-1d06-4209-b08d-1c2a271d03c4/e65c9df1-5904-474b-b989-3c44734077b4")
 		(sheetname "/Hydrosmart_OTHER/")
 		(sheetfile "Hydrosmart_OTHER.kicad_sch")
+		(attr dnp)
 		(pad "1" thru_hole circle
 			(at -2.54 0 180)
 			(size 1.6 1.6)
@@ -3192,12 +3193,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Allegro MicroSystems"
+		(property "MANUFACTURER" "Allegro MicroSystems"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bbcc700-b79a-4e87-96e1-f604c38576a7")
+			(uuid "5b901bbe-54a8-47bd-9cb3-f6d84aaaab06")
 			(effects
 				(font
 					(size 1 1)
@@ -3205,12 +3206,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CT8122AM-IS3"
+		(property "MANUFACTURER PN" "CT8122AM-IS3"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d63cc243-5841-4a51-beae-43c62272bb52")
+			(uuid "4482efee-74dc-4543-8f99-aeb4978001de")
 			(effects
 				(font
 					(size 1 1)
@@ -3540,12 +3541,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Murata Electronics"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51893938-22eb-4ac6-b129-8378d16ac499")
+			(uuid "9c6f1ffc-979f-4440-a867-ad28e64f38f8")
 			(effects
 				(font
 					(size 1 1)
@@ -3553,12 +3554,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM155D81C475ME15J"
+		(property "MANUFACTURER PN" "GRM155D81C475ME15J"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5187eea-249b-4f5b-bd44-d75de44fb963")
+			(uuid "7118e9f3-9297-424e-99c3-0f50a4954a40")
 			(effects
 				(font
 					(size 1 1)
@@ -3820,12 +3821,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Allegro MicroSystems"
+		(property "MANUFACTURER" "Allegro MicroSystems"
 			(at 0 0 133)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ce901e2-e0a7-4367-aa75-927a2b38442b")
+			(uuid "6ef5944f-fa88-4563-b7c8-20cc1b702563")
 			(effects
 				(font
 					(size 1 1)
@@ -3833,12 +3834,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CT8122AM-IS3"
+		(property "MANUFACTURER PN" "CT8122AM-IS3"
 			(at 0 0 133)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dccefe6c-e9ee-40c8-b230-371615fea8e1")
+			(uuid "f00ce38a-3c8c-4947-9ba1-6674f3605192")
 			(effects
 				(font
 					(size 1 1)
@@ -4211,7 +4212,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0402"
+		(property "Description" "RES SMD 20K OHM 1% 1/10W 0402"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4236,12 +4237,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Panasonic Electronic Components"
+		(property "MANUFACTURER" "Panasonic Electronic Components"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb07e92d-e729-4858-9c2f-cf5992e6cf0a")
+			(uuid "6bd86f82-0abe-4d97-ba71-c750fbf9c40b")
 			(effects
 				(font
 					(size 1 1)
@@ -4249,12 +4250,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "ERJ-2RKF4701X"
+		(property "MANUFACTURER PN" "ERJ-2RKF4701X"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2349abdf-ed94-4de2-a91d-d2acef354696")
+			(uuid "15c4698d-e47e-46be-9571-47cada632550")
 			(effects
 				(font
 					(size 1 1)
@@ -4450,32 +4451,6 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Analog Devices"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bbf16a31-fe50-446b-809b-73526725eadf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "MAXM38643AEMB+"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8733641d-afe5-4e26-a860-6f9866ab026d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MOUSER PART NUMBER" "700-MAXM38643AEMB+"
 			(at 0 0 180)
 			(unlocked yes)
@@ -4521,6 +4496,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0fac5691-9b41-439c-88aa-5151557f1e46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Analog Devices"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c553e9fe-378f-4384-834d-5ac73f445b00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER PN" "MAXM38643AEMB+"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba097d78-85e0-40e3-84a1-7696a2f3d73d")
 			(effects
 				(font
 					(size 1 1)
@@ -4803,12 +4804,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Panasonic Electronic Components"
+		(property "MANUFACTURER" "Panasonic Electronic Components"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf3a4a79-e84f-4c42-9ed6-410b1ecdf2fd")
+			(uuid "d7e721da-11ed-424a-a779-367bafff17f9")
 			(effects
 				(font
 					(size 1 1)
@@ -4816,12 +4817,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "ERJ-2RKF2002X"
+		(property "MANUFACTURER PN" "ERJ-2RKF2002X"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ea45a18-aa0a-4c62-be29-cf01afdab8d0")
+			(uuid "918c264c-5c64-45a8-8b31-36869c802f84")
 			(effects
 				(font
 					(size 1 1)
@@ -5212,12 +5213,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_NAME" "TDK Corporation"
+		(property "MANUFACTURER" "TDK Corporation"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67ae46c4-8210-4aa1-82d3-ee6acbb2b86d")
+			(uuid "2e84c7f9-84e6-45db-812c-ace9eb59e7d5")
 			(effects
 				(font
 					(size 1 1)
@@ -5225,12 +5226,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "MLZ1608E4R7MT000"
+		(property "MANUFACTURER PN" "MLZ1608E4R7MT000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f81787a3-3d83-48a2-9914-38edcc72dce2")
+			(uuid "a701f973-ef22-46e7-ae49-691af8f84603")
 			(effects
 				(font
 					(size 1 1)
@@ -5567,12 +5568,12 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Keystone Electronics"
+		(property "MANUFACTURER" "Keystone Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2ab93521-c86c-4ec3-a710-26bfed54e556")
+			(uuid "ec727b70-8001-40ca-b1d0-c86a54f45213")
 			(effects
 				(font
 					(size 1 1)
@@ -5581,12 +5582,12 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "122"
+		(property "MANUFACTURER PN" "122"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "634688c8-c5cf-4bc9-8055-edb5b698a6a0")
+			(uuid "fcf6fd23-f8be-4235-ae01-01af638b79ee")
 			(effects
 				(font
 					(size 1 1)
@@ -5711,12 +5712,12 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Keystone Electronics"
+		(property "MANUFACTURER" "Keystone Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "36903871-0322-4fda-924e-aad7e0eb7036")
+			(uuid "bcb19057-ca07-4122-9401-44dc4d006d87")
 			(effects
 				(font
 					(size 1 1)
@@ -5725,12 +5726,12 @@
 				(justify mirror)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "112TR"
+		(property "MANUFACTURER PN" "112TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d9b898d6-fbbc-40c6-8f68-02d5323c8327")
+			(uuid "213a24f9-e8cb-45af-901f-759e7a1138b9")
 			(effects
 				(font
 					(size 1 1)
@@ -5971,6 +5972,7 @@
 		(path "/f5d4fedf-8e3c-4300-9866-c325aa993ee6/9ecd8f94-f28c-4f4b-97c2-509462a88b86")
 		(sheetname "/Hydrosmart_NRF_MOD/")
 		(sheetfile "Hydrosmart_NRF_MOD.kicad_sch")
+		(attr dnp)
 		(fp_circle
 			(center -1.25 -1.5)
 			(end -1.4 -1.5)

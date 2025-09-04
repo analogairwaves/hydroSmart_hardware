@@ -5,358 +5,7 @@
 	(uuid "e1311a68-957e-49ea-9e35-355267f68986")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Hydrosmart_NRF_MOD-altium-import:GND_POWER_GROUND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:VBAT_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBAT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VBAT'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBAT_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:VDD_BAR"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'VDD'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault"
+		(symbol "HydSmart_VA:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault"
 			(pin_numbers
 				(hide yes)
 			)
@@ -506,27 +155,29 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_0_AN54L15Q-U_Ubihere"
+		(symbol "HydSmart_VA:root_0_AN54L15Q-U_Ubihere"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "M1"
+				(at -20.32 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "AN54L15Q-U"
+				(at 7.62 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HydSmart_VA:AN54L15Q-U"
 				(at 0 0 0)
 				(effects
 					(font
@@ -545,6 +196,114 @@
 				)
 			)
 			(property "Description" "AN54L15Q-U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SOURCE" "AN54L15Q_SCHLIB_250212.SchLib"
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "DESIGN ITEM ID" "AN54L15Q-U"
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MOUNTING TECHNOLOGY" ""
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "CASE/PACKAGE" ""
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MIN SUPPLY VOLTAGE" ""
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MIN OPERATING TEMPERATURE" ""
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "FREQUENCY" ""
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MAX SUPPLY VOLTAGE" ""
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MAX OPERATING TEMPERATURE" ""
+				(at -25.908 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Raytac"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER PN" "AN54L15Q-U"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1316,7 +1075,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_0_Battery_Hydrosmart Revised Schematics_2025-05-28T19_57_34_UTC.SCHLIB"
+		(symbol "HydSmart_VA:root_0_Battery_Hydrosmart Revised Schematics_2025-05-28T19_57_34_UTC.SCHLIB"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1454,7 +1213,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_0_Header 3X2_Miscellaneous Connectors.IntLib"
+		(symbol "HydSmart_VA:root_0_Header 3X2_Miscellaneous Connectors.IntLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1637,7 +1396,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_0_TEST_POINT_DARTMX8M_Carrier.SchLib"
+		(symbol "HydSmart_VA:root_0_TEST_POINT_DARTMX8M_Carrier.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1733,7 +1492,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_1_FC-135_32.7680KA-AG5_Ubihere"
+		(symbol "HydSmart_VA:root_1_FC-135_32.7680KA-AG5_Ubihere"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1895,7 +1654,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_2_TEST_POINT_DARTMX8M_Carrier.SchLib"
+		(symbol "HydSmart_VA:root_2_TEST_POINT_DARTMX8M_Carrier.SchLib"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1991,7 +1750,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hydrosmart_NRF_MOD-altium-import:root_3_mirrored_725321dda6339637d4d059423bc1c3c_Altium Content Vault"
+		(symbol "HydSmart_VA:root_3_mirrored_725321dda6339637d4d059423bc1c3c_Altium Content Vault"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2143,6 +1902,357 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hydrosmart_NRF_MOD-altium-import:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hydrosmart_NRF_MOD-altium-import:VBAT_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBAT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VBAT'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBAT_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hydrosmart_NRF_MOD-altium-import:VDD_BAR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VDD'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3071,7 +3181,7 @@
 		(uuid "f402eb17-6603-4090-8d31-6910af9e2b49")
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_0_TEST_POINT_DARTMX8M_Carrier.SchLib")
+		(lib_id "HydSmart_VA:root_0_TEST_POINT_DARTMX8M_Carrier.SchLib")
 		(at 130.81 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3144,23 +3254,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Keystone Electronics"
-			(at 127.762 161.544 0)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 130.81 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "112TR"
-			(at 127.762 161.544 0)
+		(property "MANUFACTURER PN" "112TR"
+			(at 130.81 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -3364,7 +3472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault")
+		(lib_id "HydSmart_VA:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault")
 		(at 176.53 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3547,23 +3655,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Murata Electronics"
-			(at 173.736 97.282 0)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM155D81C475ME15J"
-			(at 173.736 97.282 0)
+		(property "MANUFACTURER PN" "GRM155D81C475ME15J"
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -3645,7 +3751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_0_AN54L15Q-U_Ubihere")
+		(lib_id "HydSmart_VA:root_0_AN54L15Q-U_Ubihere")
 		(at 148.59 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3788,23 +3894,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Raytac"
-			(at 122.682 43.18 0)
+		(property "MANUFACTURER" "Raytac"
+			(at 148.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "AN54L15Q-U"
-			(at 122.682 43.18 0)
+		(property "MANUFACTURER PN" "AN54L15Q-U"
+			(at 148.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -4065,13 +4169,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_0_Header 3X2_Miscellaneous Connectors.IntLib")
+		(lib_id "HydSmart_VA:root_0_Header 3X2_Miscellaneous Connectors.IntLib")
 		(at 234.95 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9ecd8f94-f28c-4f4b-97c2-509462a88b86")
 		(property "Reference" "J1"
 			(at 234.95 85.09 0)
@@ -4146,7 +4250,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_3_mirrored_725321dda6339637d4d059423bc1c3c_Altium Content Vault")
+		(lib_id "HydSmart_VA:root_3_mirrored_725321dda6339637d4d059423bc1c3c_Altium Content Vault")
 		(at 91.44 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4369,23 +4473,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "TDK Corporation"
-			(at 90.17 65.532 0)
+		(property "MANUFACTURER" "TDK Corporation"
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "MLZ1608E4R7MT000"
-			(at 90.17 65.532 0)
+		(property "MANUFACTURER PN" "MLZ1608E4R7MT000"
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -4405,7 +4507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_1_FC-135_32.7680KA-AG5_Ubihere")
+		(lib_id "HydSmart_VA:root_1_FC-135_32.7680KA-AG5_Ubihere")
 		(at 91.44 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4508,16 +4610,6 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "FC-135 32.7680KA-AG5"
-			(at 87.884 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "HEIGHT" "0.9mm"
 			(at 87.884 96.012 0)
 			(effects
@@ -4538,7 +4630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Epson Timing"
+		(property "ARROW PART NUMBER" "FC-135 32.7680KA-AG5"
 			(at 87.884 96.012 0)
 			(effects
 				(font
@@ -4548,13 +4640,21 @@
 				(hide yes)
 			)
 		)
-		(property "ARROW PART NUMBER" "FC-135 32.7680KA-AG5"
-			(at 87.884 96.012 0)
+		(property "MANUFACTURER" "Epson Timing"
+			(at 91.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PN" "FC-135 32.7680KA-AG5"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4636,7 +4736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_2_TEST_POINT_DARTMX8M_Carrier.SchLib")
+		(lib_id "HydSmart_VA:root_2_TEST_POINT_DARTMX8M_Carrier.SchLib")
 		(at 110.49 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4709,23 +4809,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Keystone Electronics"
-			(at 104.14 161.29 0)
+		(property "MANUFACTURER" "Keystone Electronics"
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "122"
-			(at 104.14 161.29 0)
+		(property "MANUFACTURER PN" "122"
+			(at 110.49 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -4742,7 +4840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_0_Battery_Hydrosmart Revised Schematics_2025-05-28T19_57_34_UTC.SCHLIB")
+		(lib_id "HydSmart_VA:root_0_Battery_Hydrosmart Revised Schematics_2025-05-28T19_57_34_UTC.SCHLIB")
 		(at 148.59 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4855,23 +4953,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Jauch Quartz"
-			(at 145.288 160.02 0)
+		(property "MANUFACTURER" "Jauch Quartz"
+			(at 148.59 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "CR2477"
-			(at 145.288 160.02 0)
+		(property "MANUFACTURER PN" "CR2477"
+			(at 148.59 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -4947,7 +5043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Hydrosmart_NRF_MOD-altium-import:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault")
+		(lib_id "HydSmart_VA:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault")
 		(at 100.33 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4964,7 +5060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "${CAPACITANCE}"
+		(property "Value" "4.7uF"
 			(at 103.124 87.122 0)
 			(effects
 				(font
@@ -5050,23 +5146,21 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_NAME" "Murata Electronics"
-			(at 97.536 80.772 0)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 100.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "GRM155D81C475ME15J"
-			(at 97.536 80.772 0)
+		(property "MANUFACTURER PN" "GRM155D81C475ME15J"
+			(at 100.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
