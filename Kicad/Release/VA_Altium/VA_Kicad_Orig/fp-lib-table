@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HydSmart_VA")(type "KiCad")(uri "${KIPRJMOD}/HydSmart_VA.pretty")(options "")(descr ""))
+)

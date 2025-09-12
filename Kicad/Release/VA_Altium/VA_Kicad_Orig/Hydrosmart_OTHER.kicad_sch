@@ -832,17 +832,6 @@
 		)
 		(uuid "5b28c769-1b1b-4f8a-8577-a250f3694556")
 	)
-	(text "Hall Effect Sensor (external)"
-		(exclude_from_sim no)
-		(at 89.916 158.496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "953ad78d-594c-4087-8f34-3731d75f06ed")
-	)
 	(junction
 		(at 167.132 86.36)
 		(diameter 0)
@@ -1922,9 +1911,9 @@
 		(at 93.98 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7ff143f1-0de4-48f0-9cc3-03014313bdd1")
 		(property "Reference" "U4"
 			(at 101.6 99.06 0)

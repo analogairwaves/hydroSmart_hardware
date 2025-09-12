@@ -5,113 +5,6 @@
 	(uuid "e1311a68-957e-49ea-9e35-355267f68986")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "HydSmart_VA:root_0_02cd4be3c70576c341d710602a673aa_Altium Content Vault"
 			(pin_numbers
 				(hide yes)
@@ -2378,52 +2271,10 @@
 		(uuid "38e2a46f-d814-4c0b-9a05-5d3ac016a1e5")
 	)
 	(junction
-		(at 222.25 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ecd81ea-8db0-4bd9-aafc-eee9b3be9a2e")
-	)
-	(junction
-		(at 252.73 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e19b5e7-5e3e-4754-b153-a2ed1652ddfa")
-	)
-	(junction
-		(at 227.33 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "699e86dc-3f37-4695-991a-0881599fd13a")
-	)
-	(junction
-		(at 250.19 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70bafcf1-15c7-446b-ad94-19360aa51919")
-	)
-	(junction
-		(at 255.27 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72be8bf7-c0e1-4576-992d-7786241bd1c5")
-	)
-	(junction
 		(at 176.53 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "758775d2-ac1c-4e61-89c7-6faebfb747ad")
-	)
-	(junction
-		(at 229.87 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1e4e7ff-691e-4526-b25c-65b536d02b2c")
-	)
-	(junction
-		(at 246.4578 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9f5a5af-7eca-4240-be61-25f229e4d441")
 	)
 	(junction
 		(at 100.33 78.74)
@@ -2585,16 +2436,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 87.63) (xy 246.4578 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29c92099-3902-4999-acc5-3bb66672bb89")
-	)
-	(wire
-		(pts
 			(xy 196.85 88.9) (xy 173.99 88.9)
 		)
 		(stroke
@@ -2605,16 +2446,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 229.87 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5c13a3-32ef-4c69-816c-f5a2edd6178a")
-	)
-	(wire
-		(pts
 			(xy 148.59 109.22) (xy 148.59 140.97)
 		)
 		(stroke
@@ -2622,26 +2453,6 @@
 			(type default)
 		)
 		(uuid "3275af17-eb83-446c-9151-14e7894c81cf")
-	)
-	(wire
-		(pts
-			(xy 255.27 66.04) (xy 255.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3544e383-e5a3-4caa-b20c-f70553cdf6a2")
-	)
-	(wire
-		(pts
-			(xy 255.27 92.71) (xy 261.62 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36c26d94-711a-48c5-b2bb-cb559444fa30")
 	)
 	(wire
 		(pts
@@ -2665,16 +2476,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 74.93) (xy 222.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ffc5ea-712d-4233-bd8c-30d5295e24f5")
-	)
-	(wire
-		(pts
 			(xy 100.33 78.74) (xy 100.33 81.28)
 		)
 		(stroke
@@ -2682,16 +2483,6 @@
 			(type default)
 		)
 		(uuid "4b03f464-2d56-48dc-b48e-1091a826c70d")
-	)
-	(wire
-		(pts
-			(xy 209.55 92.71) (xy 227.33 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bfa248b-d4f4-4660-90e3-ccf0a7c40098")
 	)
 	(wire
 		(pts
@@ -2815,16 +2606,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.4578 87.63) (xy 246.4578 87.6673)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c26e59-6d4d-42ba-b79e-66a1f422507c")
-	)
-	(wire
-		(pts
 			(xy 176.53 114.3) (xy 176.53 119.38)
 		)
 		(stroke
@@ -2845,26 +2626,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 67.31) (xy 229.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8540d3c5-cf75-4bec-b05e-fbb3a1b4c724")
-	)
-	(wire
-		(pts
-			(xy 250.19 92.71) (xy 255.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86d0309f-079b-4c20-8db4-2d3f2f7f42b7")
-	)
-	(wire
-		(pts
 			(xy 173.99 58.42) (xy 176.53 58.42)
 		)
 		(stroke
@@ -2882,36 +2643,6 @@
 			(type default)
 		)
 		(uuid "94a5b57e-a7ec-48b1-a1c2-133d00631d1b")
-	)
-	(wire
-		(pts
-			(xy 250.19 78.74) (xy 250.19 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "975cab25-978b-40f1-bb6e-e1b833b57502")
-	)
-	(wire
-		(pts
-			(xy 252.73 90.17) (xy 261.62 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97da800c-463b-4bc1-b3d8-b74398065768")
-	)
-	(wire
-		(pts
-			(xy 252.73 72.39) (xy 252.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ce73ca-4919-4058-ba40-bd878d067019")
 	)
 	(wire
 		(pts
@@ -2982,16 +2713,6 @@
 			(type default)
 		)
 		(uuid "b6f716e4-1b29-4f4c-881e-c8dd0c928cea")
-	)
-	(wire
-		(pts
-			(xy 250.19 90.17) (xy 252.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c80445-00be-4e96-9388-54f4c75d0bd7")
 	)
 	(wire
 		(pts
@@ -3075,6 +2796,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 90.17) (xy 250.19 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d734d1e9-b009-4e9c-b53e-7d475d5fe414")
+	)
+	(wire
+		(pts
 			(xy 115.57 162.56) (xy 113.03 162.56)
 		)
 		(stroke
@@ -3135,6 +2866,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 92.71) (xy 250.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f436a605-fa49-4f88-aa56-396a91868fdf")
+	)
+	(wire
+		(pts
 			(xy 91.44 66.04) (xy 91.44 64.77)
 		)
 		(stroke
@@ -3155,23 +2896,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 90.17) (xy 222.25 90.17)
+			(xy 229.87 90.17) (xy 217.17 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f68467b0-3e9a-4166-9220-628fde866115")
-	)
-	(wire
-		(pts
-			(xy 209.55 82.55) (xy 209.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f73face6-831a-4217-9d99-7e85fe5e1f7f")
 	)
 	(wire
 		(pts
@@ -3192,16 +2923,6 @@
 			(type default)
 		)
 		(uuid "f9f6e92b-ffc9-4f5c-99da-8d3d0a3e2f77")
-	)
-	(wire
-		(pts
-			(xy 246.4578 87.63) (xy 250.19 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5da84a-cb8c-4157-9089-fa849a80d491")
 	)
 	(label "SWO"
 		(at 261.62 92.71 180)
@@ -3460,73 +3181,6 @@
 		(uuid "f402eb17-6603-4090-8d31-6910af9e2b49")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 229.87 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0636352e-9e47-4569-a08a-f31867d27ac7")
-		(property "Reference" "TVDD1"
-			(at 232.41 62.7379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 232.41 65.2779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 234.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 229.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68628e08-f9a7-473b-b6be-1a935f2a77f1")
-		)
-		(instances
-			(project "HydSmart_VA"
-				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
-					(reference "TVDD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HydSmart_VA:root_0_TEST_POINT_DARTMX8M_Carrier.SchLib")
 		(at 130.81 165.1 0)
 		(unit 1)
@@ -3625,73 +3279,6 @@
 			(project "HydSmart_VA"
 				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 209.55 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e2b2662-479d-4e34-b514-631bf812d31d")
-		(property "Reference" "TGND1"
-			(at 212.09 77.9779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 212.09 80.5179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 209.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "075bab18-01f8-467a-94f3-c3201869e084")
-		)
-		(instances
-			(project "HydSmart_VA"
-				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
-					(reference "TGND1")
 					(unit 1)
 				)
 			)
@@ -4164,72 +3751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 252.73 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54b1af32-b325-4c58-9e05-4a622eef6537")
-		(property "Reference" "TCK1"
-			(at 249.936 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 255.27 70.3579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 257.81 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 252.73 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b93fb84-9a9c-40bb-a7c9-0fc7a43a9035")
-		)
-		(instances
-			(project "HydSmart_VA"
-				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
-					(reference "TCK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HydSmart_VA:root_0_AN54L15Q-U_Ubihere")
 		(at 148.59 73.66 0)
 		(unit 1)
@@ -4524,72 +4045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79e85f98-3a20-4a41-b08e-edda3739eb4c")
-		(property "Reference" "TIO1"
-			(at 248.412 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 252.73 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 255.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 250.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d1e17c7-a44d-4605-92d1-e49294fa195f")
-		)
-		(instances
-			(project ""
-				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
-					(reference "TIO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Hydrosmart_NRF_MOD-altium-import:VDD_BAR")
 		(at 74.93 82.55 180)
 		(unit 1)
@@ -4789,72 +4244,6 @@
 			(project "HydSmart_VA"
 				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae840e46-5173-4de3-a186-85f4c7c1e42c")
-		(property "Reference" "TSWO1"
-			(at 253.238 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 257.81 64.0079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 260.35 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5be09426-55f2-48da-9785-822e9a0c3f7b")
-		)
-		(instances
-			(project "HydSmart_VA"
-				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
-					(reference "TSWO1")
 					(unit 1)
 				)
 			)
@@ -5112,72 +4501,6 @@
 			(project "HydSmart_VA"
 				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 222.25 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca71f271-0468-48a2-afc9-09af344b4763")
-		(property "Reference" "TRST1"
-			(at 215.9 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 211.328 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 227.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 222.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f30fdda1-e145-4f18-a646-5506928b0f88")
-		)
-		(instances
-			(project "HydSmart_VA"
-				(path "/55dcedc0-f3c9-4802-9d92-598810bbb9c2/f5d4fedf-8e3c-4300-9866-c325aa993ee6"
-					(reference "TRST1")
 					(unit 1)
 				)
 			)
